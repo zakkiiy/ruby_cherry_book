@@ -1,4 +1,4 @@
-# P68~
+# P68~73
 # メソッド定義について
 # デフォルト引数 引数の過不足があるとエラーが出る。
 
@@ -68,3 +68,7 @@ puts a #=> RUBY
 # エンドレスメソッド定義（１行メソッド）
 def greet = 'Hello'
 puts greet #=> Hello
+
+def add(a,b) = a+b
+puts add(1,2)
+#=> 3
